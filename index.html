@@ -2,8 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
 
     <link
       rel="icon"
@@ -17,44 +16,57 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav>
-      <ul>
-        <li>Product</li>
-        <ul>
-          <li>Overview</li>
-          <li>Pricing</li>
-          <li>Marketplace</li>
-          <li>Features</li>
-          <li>Integrations</li>
-        </ul>
-        <li>Company</li>
-        <ul>
-          <li>About</li>
-          <li>Team</li>
-          <li>Blog</li>
-          <li>Careers</li>
-        </ul>
-        <li>Connect</li>
-        <ul>
-          <li>Contact</li>
-          <li>Newsletter</li>
-          <li>LinkedIn</li>
-        </ul>
-
-        <li><button class="btn">Login</button></li>
-        <li><button class="btn">Sign Up</button></li>
-      </ul>
-    </nav>
-
-    <header>
-      <h1>A modern publishing platform</h1>
-      <p>Grow your audience and build your online brand</p>
+    <header class="bg-red-gradient">
+      <div class="container">
+        <nav>
+          <img class="brand" src="images/logo.svg" alt="logo" />
+          <div class="nav-items">
+            <div class="nav-item">
+              <h5>Product</h5>
+              <ul style="display: none">
+                <li>Overview</li>
+                <li>Pricing</li>
+                <li>Marketplace</li>
+                <li>Features</li>
+                <li>Integrations</li>
+              </ul>
+            </div>
+            <div class="nav-item">
+              <h5>Company</h5>
+              <ul style="display: none">
+                <li>About</li>
+                <li>Team</li>
+                <li>Blog</li>
+                <li>Careers</li>
+              </ul>
+            </div>
+            <div class="nav-item">
+              <h5>Connect</h5>
+              <ul style="display: none">
+                <li>Contact</li>
+                <li>Newsletter</li>
+                <li>LinkedIn</li>
+              </ul>
+            </div>
+            <div class="flex ml-auto">
+              <button class="btn btn-none">Login</button>
+              <button class="btn btn-outline">Sign Up</button>
+            </div>
+          </div>
+          <div class="mobile-menu">
+            <img src="images/icon-hamburger.svg" alt="menu" />
+          </div>
+        </nav>
+        <div class="cta">
+          <h1>A modern publishing platform</h1>
+          <p>Grow your audience and build your online brand</p>
+          <div class="button-group">
+            <button class="btn">Start for Free</button>
+            <button class="btn btn-outline">Learn More</button>
+          </div>
+        </div>
+      </div>
     </header>
-
-    <div>
-      <button class="btn">Start for Free</button>
-      <button class="btn">Learn More</button>
-    </div>
 
     <section>
       <h2>Designed for the future</h2>
